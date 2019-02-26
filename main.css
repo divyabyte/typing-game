@@ -1,0 +1,25 @@
+.bgimage{
+	background: url(images/typing.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.play
+{
+	    margin: 30px;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  }
+
+  #projects{
+     background-color: #f8f9fa!important;
+    }
