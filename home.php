@@ -20,7 +20,7 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="project-card"">
-					<a href="key.html">
+					<a href="key_drill.php">
 					<img src="images/key.jpg" height="300" width="500" class="img-fluid" /></a>
 					<pd>Key Typing</p>
 				</div>
@@ -38,7 +38,7 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="project-card"">
-					<a href="word.html">
+					<a href="word_drill.php">
 					<img src="images/word.jpg" height="300" width="500" class="img-fluid" /></a>
 					<p>Word Typing</p>
 				</div>
