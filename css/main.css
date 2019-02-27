@@ -1,0 +1,80 @@
+.bgimage{
+	background: url(../images/typing.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+.play
+{
+	    margin: 30px;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  }
+
+  #projects{
+     background-color: #f8f9fa!important;
+    }
+body{
+      background:url(../images/form-v9.jpg);
+      background-size: cover;
+    }
+    .loginform{
+      width: 320px;
+      height: 320px;
+      background: #000;
+      color:#fff;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      padding-left: 20px 20px;
+    }
+    .signupform{
+      width: 320px;
+      height: 420px;
+      background: #000;
+      color:#fff;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      padding-left: 20px 20px;
+    }
+    .header{
+      border-radius: 50px;
+      position: absolute;
+      top: -50px;
+      left: calc(50% - 50px);
+    }
+    p{
+      font-weight: bold;
+    }
+    input{
+      width: 100%;
+    }
+    input[type='text'],input[type='password']{
+      border:none;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      height: 30px;
+      color: #fff;
+
+      } 
+      input[type='submit']{
+        border:none;
+        outline:none;
+        background: #fb2525;
+        color: #fff;
+        font-size: 18px;
+        font-family: sans-serif;
+      }
