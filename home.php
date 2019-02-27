@@ -28,11 +28,18 @@
 		<br>
 		<div class="row">
 			<div class="col-md-6">
+<<<<<<< HEAD
 				<div class="project-card" >
 					<a href="key.html">
 					<img src="images/key.jpg" height="300" onmouseover="speakkey()" width="500" class="img-fluid" /></a>
 					<br><br>
 					<center><p>Key Drill</p></center>
+=======
+				<div class="project-card"">
+					<a href="key_drill.php">
+					<img src="images/key.jpg" height="300" width="500" class="img-fluid" /></a>
+					<pd>Key Typing</p>
+>>>>>>> fdf74364c1ee8cace146b898bfa4c69e6b9ffd95
 				</div>
 			</div>
 			<div class="col-md-6">
@@ -49,11 +56,18 @@
 		<div class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-6">
+<<<<<<< HEAD
 				<div class="project-card" >
 					<a href="word.html" >
 					<img src="images/sen.jpg" height="300" onmouseover="speaksen()" width="500" class="img-fluid" /></a>
 					<br><br>
 					<center><p>Sentence Drill</p></center>
+=======
+				<div class="project-card"">
+					<a href="word_drill.php">
+					<img src="images/word.jpg" height="300" width="500" class="img-fluid" /></a>
+					<p>Word Typing</p>
+>>>>>>> fdf74364c1ee8cace146b898bfa4c69e6b9ffd95
 				</div>
 			</div>
 			<div class="col-md-3"></div>
