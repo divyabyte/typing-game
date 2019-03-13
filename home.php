@@ -2,12 +2,17 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 	<title></title>
+	<style>
+		.row
+		{
+			padding-top: 100px;
+		}
+	</style>
 </head>
 <body>
 
@@ -28,69 +33,39 @@
 		<br>
 		<div class="row">
 			<div class="col-md-6">
-<<<<<<< HEAD
 				<div class="project-card" >
-					<a href="key.html">
+					<a href="key_drill.php">
 					<img src="images/key.jpg" height="300" onmouseover="speakkey()" width="500" class="img-fluid" /></a>
 					<br><br>
 					<center><p>Key Drill</p></center>
-=======
-				<div class="project-card"">
-					<a href="key_drill.php">
-					<img src="images/key.jpg" height="300" width="500" class="img-fluid" /></a>
-					<pd>Key Typing</p>
->>>>>>> fdf74364c1ee8cace146b898bfa4c69e6b9ffd95
 				</div>
 			</div>
 			<div class="col-md-6">
-				<div class="project-card">
-					<a href="speed.html">
-					<img src="images/word.jpg" onmouseover="speakword()" height="300" width="500" class="img-fluid" /></a>
-					<br><br>
-					<center><p>Word Drill</p></center>
-				</div>
-			</div>
-		</div>
-		<br>
-		<br>
-		<div class="row">
-			<div class="col-md-3"></div>
-			<div class="col-md-6">
-<<<<<<< HEAD
 				<div class="project-card" >
-					<a href="word.html" >
+					<a href="sentence_drill.php" >
 					<img src="images/sen.jpg" height="300" onmouseover="speaksen()" width="500" class="img-fluid" /></a>
 					<br><br>
 					<center><p>Sentence Drill</p></center>
-=======
-				<div class="project-card"">
-					<a href="word_drill.php">
-					<img src="images/word.jpg" height="300" width="500" class="img-fluid" /></a>
-					<p>Word Typing</p>
->>>>>>> fdf74364c1ee8cace146b898bfa4c69e6b9ffd95
+
 				</div>
 			</div>
-			<div class="col-md-3"></div>
 	   </div>
-	<
 </section>
 
 <script>
-	function speakkey() {
-	var audio = new Audio('audio/key.mp3');
-      audio.play();
+	
+	function speakkey(){
+		var audio = new Audio('key.mpeg');
+		audio.play();
 	}
 
-	function speakword() {
-	var audio = new Audio('audio/word.mp3');
-      audio.play();
-	}
-
-	function speaksen() {
-	var audio = new Audio('audio/send.mp3');
-      audio.play();
+	function speaksen(){
+		var audio1 = new Audio('sen.mpeg');
+		audio1.play();
 	}
 </script>
+
+
 
 </body>
 </html>

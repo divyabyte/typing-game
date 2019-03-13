@@ -34,7 +34,7 @@
 		</form>
 	</div>
 
-  <script >
+  <script>
     $(document).ready(function(){
             username();
           });
@@ -56,6 +56,11 @@
       recognition.onresult = function(e) {
         document.getElementById('name').value
                                  = e.results[0][0].transcript;
+        var value = document.getElementById('name').value;
+        if(value='')
+        {
+          recognition.start();
+        }
         recognition.stop();
         document.getElementById("pass").focus();
         password();
@@ -71,7 +76,7 @@
     {
 
     if (window.hasOwnProperty('webkitSpeechRecognition')) {
-
+ 
       var recognition1 = new webkitSpeechRecognition();
 
       recognition1.continuous = false;

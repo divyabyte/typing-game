@@ -2,6 +2,13 @@
 <html>
 <head>
 	<title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+
 	 <script >
 		
 		var playlist=new Array('testa1.mp3','testb1.mp3','testc1.mp3','testd.mp3','teste.mp3','testf.mp3','testg.mp3','testh.mp3','testi.mp3','testj.mp3','testk.mp3','testl.mp3','testm.mp3','testn.mp3','testo.mp3','testp.mp3','testq.mp3','testr.mp3','tests.mp3','testt.mp3','testu.mp3','testv.mpeg','testw.mp3','testx.mp3','testy.mp3','testz.mp3','testspace.mp3');
@@ -24,7 +31,12 @@
        	</script>
         <style >
         body{
-            background-color: #000000ab;
+            
+    background: url(images/form-v9.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
         }
             #output_area{
@@ -42,6 +54,15 @@
         </style>
 </head>
 <body>
+
+    <nav class="navbar navbar-light navbar-fixed-top" style="background-color:#173348;">
+    <div class="container-fluid">
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="home.php">Home</a></li>
+      <li><a href="index.php">Logout</a></li>
+    </ul>
+    </div>
+   </nav>
 <div>
 	<input type="textarea" name="" id="output_area" >
 

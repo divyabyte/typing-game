@@ -4,7 +4,7 @@ function register()
 {
 	global $conn;
 	if(isset($_POST['name']) || isset($_POST['mobileno']))
-
+{
 	$password	= $_POST['pass'];
 	$username	= $_POST['name'];
 	$mobile_no  = $_POST['mobileno'];
@@ -12,9 +12,7 @@ function register()
 	$check = $conn->query("SELECT * FROM userDetails WHERE  username='$username'"); 
 	if(mysqli_num_rows($check) > 0)
 	{
-		echo '<audio controls>
-  			<source src="../audio/takenuser.mpeg" type="audio/mpeg">
-			</audio>';
+		echo 'username already taken';
  
 	}
 	elseif(isset($check))
@@ -24,7 +22,7 @@ function register()
 			$conn->query("INSERT INTO userDetails(username,password,mobile_no) VALUES ('$username','$password','$mobile_no')") or die(mysqli_error($conn)) ; 
 
 		}
-	} }  
+	} }  }
 
 
 function login()
@@ -42,9 +40,7 @@ function login()
 
 	if ($result['password'] != $password) {
 
-		echo '<audio controls>
-  			<source src="../audio/passnot.mpeg" type="audio/mpeg">
-			</audio>';
+		echo 'password is wrong';
 	}
 }
 ?>
